@@ -3,7 +3,7 @@
 #include <pigpio.h>
 
 int LED_PINS[] = {18, 23, 24, 25, 12};
-int BTN_PINS[] = {2, 3, 4, 17, 27};
+int BTN_PINS[] = {5, 6, 13, 19, 26};
 int activated[] = {0, 0, 0, 0, 0};
 int btn1_latched = 0;
 int game_won = 0;
