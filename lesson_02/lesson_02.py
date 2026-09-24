@@ -16,17 +16,17 @@
 from gpiozero import LED, Button
 from time import sleep
 
-led1 = LED(17)
-led2 = LED(18)
-led3 = LED(27)
-led4 = LED(22)
-led5 = LED(23)
+led1 = LED(12)
+led2 = LED(25)
+led3 = LED(24)
+led4 = LED(23)
+led5 = LED(18)
 
-btn1 = Button(5)
-btn2 = Button(6)
-btn3 = Button(13)
-btn4 = Button(19)
-btn5 = Button(26)
+btn1 = Button(6)
+btn2 = Button(5)
+btn3 = Button(22)
+btn4 = Button(27)
+btn5 = Button(17)
 
 # Was each button already down last time through the loop?
 # (So holding a button doesn't count as 100 presses.)

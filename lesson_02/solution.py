@@ -10,8 +10,8 @@ from gpiozero import LED, Button
 from time import sleep
 
 # A list is a numbered shelf of things. leds[0] is the first one.
-leds    = [LED(17), LED(18), LED(27), LED(22), LED(23)]
-buttons = [Button(5), Button(6), Button(13), Button(19), Button(26)]
+leds    = [LED(12), LED(25), LED(24), LED(23), LED(18)]
+buttons = [Button(6), Button(5), Button(22), Button(27), Button(17)]
 was_down = [False, False, False, False, False]
 
 

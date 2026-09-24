@@ -5,7 +5,7 @@
 ## Before class
 - Copy **only** `punchy_l2.py` to Punchy: `scp punchy_l2.py pi@punchy.local:~/`
 - Make sure the C `punchy` program isn't running (it holds the same pins).
-- Pins (canonical map): LEDs 17/18/27/22/23, buttons 5/6/13/19/26.
+- Pins (as wired): LEDs 12/25/24/23/18, buttons 6/5/22/27/17.
 - Run: `python3 punchy_l2.py`. No sudo or compile step needed.
 - Backup plan if `punchy.local` won't resolve on Bacon wifi: use a phone hotspot.
 
